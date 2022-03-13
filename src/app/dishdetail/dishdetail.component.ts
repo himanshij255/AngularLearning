@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, Inject } from '@angular/core';
 import { Dish } from '../shared/dish';
 import { DishService } from '../services/dish.service';
 import { Params, ActivatedRoute } from '@angular/router';
@@ -43,7 +43,7 @@ export class DishdetailComponent implements OnInit {
 
   constructor(private dishservice: DishService,
     private route: ActivatedRoute,
-    private location: Location,private fb: FormBuilder) { 
+    private location: Location,private fb: FormBuilder, @Inject('BaseURL') private BaseURL) { 
 		this.createForm();
 	}
 
@@ -70,7 +70,7 @@ export class DishdetailComponent implements OnInit {
       author: ['', [Validators.required, Validators.minLength(2)] ],
       comment: ['', [Validators.required] ],
       rating: '',
-	  date:new Date();
+	  date:new Date(),
     });
 	this.commentForm.valueChanges
       .subscribe(data => this.onValueChanged(data));
