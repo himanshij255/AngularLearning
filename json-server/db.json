@@ -224,5 +224,46 @@
       "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
     }
   ],
-  "feedback": []
+  "feedback": [
+    {
+      "firstname": "himanshi",
+      "lastname": "jain",
+      "telnum": "4923042",
+      "email": "jfgkld@gkfdklg.com",
+      "agree": false,
+      "contacttype": "Tel",
+      "message": "Let's submit our second feedback to the server.",
+      "id": 1
+    },
+    {
+      "firstname": "fjdsaklfjs",
+      "lastname": "fkjdfkljs",
+      "telnum": "938092",
+      "email": "fkdjsf@fkldjf.com",
+      "agree": true,
+      "contacttype": "Email",
+      "message": "fjaiofjoiejfowkjlksc",
+      "id": 2
+    },
+    {
+      "firstname": "Himanshi",
+      "lastname": "Jain",
+      "telnum": "987640",
+      "email": "hj@gmail.com",
+      "agree": true,
+      "contacttype": "Tel",
+      "message": "It was a good experience.",
+      "id": 3
+    },
+    {
+      "firstname": "Himanshi",
+      "lastname": "Jain",
+      "telnum": "74653800",
+      "email": "hihkj@fdfkal.com",
+      "agree": true,
+      "contacttype": "Tel",
+      "message": "Let's check animation.",
+      "id": 4
+    }
+  ]
 }
